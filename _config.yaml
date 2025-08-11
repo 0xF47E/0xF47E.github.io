@@ -1,3 +1,12 @@
-theme: jekyll-theme-minimal
 title: 0xF47E's homepage
 description: Bookmark this to keep an eye on my project updates!
+
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+collections:
+  projects:
+    output: true
