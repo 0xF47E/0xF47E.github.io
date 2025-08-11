@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-UK" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="sidebar">
+        <header>
+          {%- include header.html -%}
+        </header>
+        <div class="sidebar-footer">
+        </div>
+      </div>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        {%- include footer.html -%}
+      </footer>
+    </div>
+  </body>
+</html>
+

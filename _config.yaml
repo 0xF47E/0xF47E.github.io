@@ -1,11 +1,13 @@
 title: 0xF47E's homepage
-description: Bookmark this to keep an eye on my project updates!
+description: Follow my journey!
 
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-
+platforms:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/0xF47E
+  - name: LinkedIn
+    icon: <i class="fa-brands fa-linkedin"></i>
+    link: https://www.linkedin.com/in/julien-jaeger/
 
 collections:
   projects:
