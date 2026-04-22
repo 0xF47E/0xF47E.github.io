@@ -1,5 +1,7 @@
 ---
+layout: project
 title: Phishing Link Detection
+author: me
 ---
 
 A project containing multiple machine learning models to detect phishing URLs. This was part of my bachelor thesis.

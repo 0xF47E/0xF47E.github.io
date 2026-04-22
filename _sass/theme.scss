@@ -133,17 +133,36 @@ blockquote {
   font-style: italic;
 }
 
-code, pre {
+pre, code {
   font-family: Consolas, Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color: var(--clr-code-text);
 }
 
 pre {
   padding: 8px 15px;
-  background: var(--clr-code-bg);
+  background: #262e38;
+  color: #e6edf3;
   border-radius: 5px;
   border: 1px solid var(--clr-code-border);
   overflow-x: auto;
+  overflow-wrap: anywhere;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 80ch;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+code {
+  font-size: inherit;
+}
+
+p code, li code {
+  background: #262e38;
+  color: #e6edf3;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.95em;
 }
 
 .card {
@@ -220,8 +239,7 @@ kbd {
 }
 
 .sidebar {
- /* background-image: url('/images/sidebar-bg.jpg');*/
-  background-color: black;
+  background: url('/images/sidebar-bg.jpg');
   text-align: center;
 
   color: white;
@@ -259,6 +277,10 @@ section {
   width: 550px;
   float: right;
   padding-bottom:30px;
+}
+
+section a {
+  text-decoration-line: underline;
 }
 
 footer {

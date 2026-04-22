@@ -1,6 +1,7 @@
 ---
 layout: post
 title: How I Detect Phishing Links with ML
+date: 2025-08-11 12:00:00 +0100
 author: me
 ---
 

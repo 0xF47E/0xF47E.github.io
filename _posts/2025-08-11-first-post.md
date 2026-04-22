@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "My First Cybersecurity Blog Post"
-date: 2025-08-11 12:00:00 +0000
-author: "me"
+date: 2025-08-11 12:00:00 +0100
+author: me
 --- 
 
 Today I'm starting my portfolio blog.
