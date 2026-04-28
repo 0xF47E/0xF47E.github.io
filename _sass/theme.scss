@@ -145,7 +145,7 @@ pre {
   border: 1px solid var(--clr-code-border);
   overflow-x: auto;
   overflow-wrap: anywhere;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.5;
   max-width: 80ch;
   white-space: pre-wrap;
@@ -293,7 +293,8 @@ small {
 
 hr {
   border: 0;
-  background: var(--clr-splitter-blockquote-and-section);
+  /*background: var(--clr-splitter-blockquote-and-section);*/
+  background: black;
   height: 1px;
   width: 100%;
   margin: 10px auto 20px;
