@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+{% assign sorted_writeups = site.writeups | sort: "date" | reverse %}
+{% for writeup in sorted_writeups %}
+  <small>{{ writeup.date | date: "%B %d, %Y" }}</small>
+  <h2><a href="{{ writeup.url }}">{{ writeup.title }}</a></h2>
+  <p>{{ writeup.excerpt }}</p>
+{% endfor %}

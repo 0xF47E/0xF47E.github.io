@@ -85,7 +85,10 @@ ul.link a:hover, a:focus {
 }
 
 ul.content {
-  margin-left: -1.4em;
+  //margin-left: -1.4em;
+  color: var(--clr-a-text-hvr);
+  list-style-type: none;
+  padding: 0.4px;
 }
 
 .sublist {
@@ -296,7 +299,7 @@ hr {
   /*background: var(--clr-splitter-blockquote-and-section);*/
   background: black;
   height: 1px;
-  width: 100%;
+  width: auto;
   margin: 10px auto 20px;
 }
 

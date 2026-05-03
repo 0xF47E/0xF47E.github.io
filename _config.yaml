@@ -13,3 +13,16 @@ platforms:
 collections:
   projects:
     output: true
+  writeups:
+    output: true
+
+navigation:
+  - name: Home
+    link: /
+  - name: About
+    link: /about
+  - name: Projects
+    link: /projects
+  - name: Writeups
+    link: /writeups
+  

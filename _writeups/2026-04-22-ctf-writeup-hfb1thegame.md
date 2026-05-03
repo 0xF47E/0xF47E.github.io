@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: writeup
 title: "CTF-Writeup: THM - The Game"
 date: 2026-04-22 15:30:00 +0100
 url: https://tryhackme.com/room/hfb1thegame
 difficulty: easy
 author: me
-tags: CTF
+tags: ctf binary
 ---
 
 The challenge was to analyze a Tetris-like game and recover a hidden flag from the binary.

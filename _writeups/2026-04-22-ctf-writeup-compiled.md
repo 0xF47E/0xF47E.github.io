@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: writeup
 title: "CTF-Writeup: THM - Compiled"
 date: 2026-04-22 17:30:00 +0100
 url: https://tryhackme.com/room/compiled
 difficulty: easy
 author: me
-tags: CTF
+tags: ctf binary
 ---
 
 The challenge was to analyze compiled binary. 

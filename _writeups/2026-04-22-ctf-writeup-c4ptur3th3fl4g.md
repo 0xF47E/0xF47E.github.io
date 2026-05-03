@@ -1,11 +1,11 @@
 ---
-layout: post
-title: "CTF-Writeup: THM - c4ptur3-th3-fl4g"
+layout: writeup
+iitle: "CTF-Writeup: THM - c4ptur3-th3-fl4g"
 date: 2026-04-22 18:30:00 +0100
 url: https://tryhackme.com/room/c4ptur3th3fl4g
 difficulty: easy
 author: me
-tags: CTF
+tags: ctf cryptography
 ---
 
 This challenge consists of different translation & shifting tasks, spectograms, steganography and file investigation.

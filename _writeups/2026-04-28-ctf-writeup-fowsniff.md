@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: writeup
 title: "CTF-Writeup: THM - Fowsniff CTF"
 date: 2026-04-28 20:30:00 +0100
 url: https://tryhackme.com/room/ctf
 difficulty: easy
 author: me
-tags: CTF
+tags: ctf privesc
 ---
 
 "This boot2root machine is brilliant for new starters. You will have to enumerate this machine by finding open ports, do some online research (its amazing how much information Google can find for you), decoding hashes, brute forcing a pop3 login and much more!
